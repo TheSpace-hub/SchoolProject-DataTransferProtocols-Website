@@ -25,6 +25,7 @@ p {
 
 .level {
     background-color: #323232;
+    user-select: none;
     float: right;
     margin-right: 10vw;
     margin-top: 10vh;
@@ -39,6 +40,7 @@ table {
 }
 
 input[type="range"] {
+    user-select: auto;
     accent-color: #ff6a00;
 }
 
