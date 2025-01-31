@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    font: 1.2rem "Fira Sans", sans-serif;
+}
+
+p {
+    margin: 10px;
+}
+
+.dashboard {
+    background-color: #323232;
+    user-select: none;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+
+.level {
+    background-color: #323232;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 10px;
+}
+
+input[type="range"] {
+    accent-color: #ff6a00;
+}
+
+td {
+    border: solid 1px #fff;
+    border-style: none solid solid none;
+    padding: 2vh;
+}
+
+th {
+    border: solid 1px #fff;
+    border-style: none solid solid none;
+    background-color: #484848;
+    padding: 2vh;
+}
+
+
+tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+tr:first-child th {
+    border-top-style: solid;
+}
+
+tr th:first-child {
+    border-left-style: solid;
+}
+
+tr td:first-child {
+    border-left-style: solid;
+}
