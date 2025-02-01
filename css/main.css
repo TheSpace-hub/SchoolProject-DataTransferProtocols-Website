@@ -13,22 +13,25 @@ p {
     margin: 10px;
 }
 
+.info-board {
+    margin: 10px;
+    float: right;
+}
+
 .dashboard {
+    margin: 10px;
     background-color: #323232;
     user-select: none;
-    float: right;
-    margin-right: 10vw;
-    margin-top: 10vh;
+    float: left;
     border-radius: 2vh;
     padding: 1vh;
 }
 
 .level {
+    margin: 10px;
     background-color: #323232;
     user-select: none;
-    float: right;
-    margin-right: 10vw;
-    margin-top: 10vh;
+    float: left;
     border-radius: 2vh;
     padding: 1vh;
 }

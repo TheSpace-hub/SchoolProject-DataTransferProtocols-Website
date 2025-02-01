@@ -8,86 +8,86 @@
 </head>
 <body>
 <main>
-    <div class="dashboard">
-        <p>Сообщения от пульта</p>
-        <table>
-            <thead>
-            <tr>
-                <th>Название</th>
-                <th>Статус</th>
-                <th>Примечание</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr id="k1">
-                <td>k1</td>
-                <td id="k1-status">OFF</td>
-                <td></td>
-            </tr>
-            <tr id="k2">
-                <td>k2</td>
-                <td id="k2-status">OFF</td>
-                <td></td>
-            </tr>
-            <tr id="k3">
-                <td>k3</td>
-                <td id="k3-status">OFF</td>
-                <td></td>
-            </tr>
-            <tr id="k4">
-                <td>k4</td>
-                <td id="k4-status">OFF</td>
-                <td></td>
-            </tr>
-            <tr id="k5">
-                <td>k5</td>
-                <td id="k5-status">OFF</td>
-                <td></td>
-            </tr>
-            <tr id="k6">
-                <td>k6</td>
-                <td id="k6-status">OFF</td>
-                <td></td>
-            </tr>
-            <tr id="k7">
-                <td>k7</td>
-                <td id="k7-status">OFF</td>
-                <td></td>
-            </tr>
-            <tr id="k8">
-                <td>k8</td>
-                <td id="k8-status">OFF</td>
-                <td></td>
-            </tr>
+    <div class="info-board">
+        <div class="level">
+            <label for="level-input">Установить значение</label> <br> <br>
+            <label>0</label>
+            <input type="range" name="level" value="0" id="level-input" min="0" max="10" oninput="update_level()">
+            <label>10</label>
+            <table>
+                <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Значение</th>
+                    <th>Примечание</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr id="level">
+                    <td>level</td>
+                    <td id="level-status">0</td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="dashboard">
+            <p>Сообщения от пульта</p>
+            <table>
+                <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Статус</th>
+                    <th>Примечание</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr id="k1">
+                    <td>k1</td>
+                    <td id="k1-status">OFF</td>
+                    <td></td>
+                </tr>
+                <tr id="k2">
+                    <td>k2</td>
+                    <td id="k2-status">OFF</td>
+                    <td></td>
+                </tr>
+                <tr id="k3">
+                    <td>k3</td>
+                    <td id="k3-status">OFF</td>
+                    <td></td>
+                </tr>
+                <tr id="k4">
+                    <td>k4</td>
+                    <td id="k4-status">OFF</td>
+                    <td></td>
+                </tr>
+                <tr id="k5">
+                    <td>k5</td>
+                    <td id="k5-status">OFF</td>
+                    <td></td>
+                </tr>
+                <tr id="k6">
+                    <td>k6</td>
+                    <td id="k6-status">OFF</td>
+                    <td></td>
+                </tr>
+                <tr id="k7">
+                    <td>k7</td>
+                    <td id="k7-status">OFF</td>
+                    <td></td>
+                </tr>
+                <tr id="k8">
+                    <td>k8</td>
+                    <td id="k8-status">OFF</td>
+                    <td></td>
+                </tr>
 
-            </tbody>
-        </table>
-    </div>
-
-    <div class="level">
-        <label for="level-input">Установить значение</label> <br> <br>
-        <label>0</label>
-        <input type="range" name="level" value="0" id="level-input" min="0" max="10" oninput="update_level()">
-        <label>10</label>
-        <table>
-            <thead>
-            <tr>
-                <th>Название</th>
-                <th>Значение</th>
-                <th>Примечание</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr id="level">
-                <td>level</td>
-                <td id="level-status">0</td>
-                <td></td>
-            </tr>
-            </tbody>
-        </table>
+                </tbody>
+            </table>
+        </div>
     </div>
 </main>
-
 <script src="js/main.js"></script>
 </body>
 </html>
