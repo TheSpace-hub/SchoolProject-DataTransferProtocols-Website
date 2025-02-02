@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from mainapp.views import index_page, key_status
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', index_page),
+    path('key_status', key_status),
 ]

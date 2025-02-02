@@ -36,6 +36,15 @@ p {
     padding: 1vh;
 }
 
+.transfer {
+    margin: 10px;
+    background-color: #323232;
+    user-select: none;
+    float: left;
+    border-radius: 2vh;
+    padding: 1vh;
+}
+
 table {
     border-collapse: separate;
     border-spacing: 0;
